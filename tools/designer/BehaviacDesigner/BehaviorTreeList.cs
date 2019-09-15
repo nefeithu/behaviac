@@ -92,7 +92,7 @@ namespace Behaviac.Design
             bool enabled = (editMode == EditModes.Design);
             this.toolStripButton_workspace.Enabled = enabled;
             this.refreshButton.Enabled = enabled;
-            this.newBehaviorButton.Enabled = enabled;
+            this.newRoundFlowButton.Enabled = enabled;
             this.createGroupButton.Enabled = enabled;
             this.deleteButton.Enabled = enabled;
             this.exportAllButton.Enabled = enabled;
@@ -191,7 +191,7 @@ namespace Behaviac.Design
             }
 
             // update labels
-            newBehaviorButton.Text = Plugin.GetResourceString("NewBehavior") + " (Ctrl+N)";
+            newRoundFlowButton.Text = Plugin.GetResourceString("NewRoundFlow") + " (Ctrl+N)";
             //_behaviorGroupName = Plugin.GetResourceString("BehaviorGroupName");
             //_prefabGroupName = Plugin.GetResourceString("PrefabGroupName");
         }
@@ -1203,9 +1203,9 @@ namespace Behaviac.Design
         }
 
         /// <summary>
-        /// Handles when the new behavior button is clicked.
+        /// Handles when the new RoundFlow button is clicked.
         /// </summary>
-        private void newBehaviorButton_Click(object sender, EventArgs e)
+        private void newRoundFlowButton_Click(object sender, EventArgs e)
         {
             NewBehavior();
         }

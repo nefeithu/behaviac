@@ -88,7 +88,7 @@ namespace Behaviac.Design
             this.refreshButton = new System.Windows.Forms.ToolStripButton();
             this.exportAllButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
-            this.newBehaviorButton = new System.Windows.Forms.ToolStripButton();
+            this.newRoundFlowButton = new System.Windows.Forms.ToolStripButton();
             this.createGroupButton = new System.Windows.Forms.ToolStripButton();
             this.deleteButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
@@ -270,7 +270,7 @@ namespace Behaviac.Design
                 this.refreshButton,
                 this.exportAllButton,
                 this.toolStripSeparator12,
-                this.newBehaviorButton,
+                this.newRoundFlowButton,
                 this.createGroupButton,
                 this.deleteButton,
                 this.toolStripSeparator5,
@@ -328,12 +328,12 @@ namespace Behaviac.Design
             this.toolStripSeparator12.Name = "toolStripSeparator12";
             resources.ApplyResources(this.toolStripSeparator12, "toolStripSeparator12");
             //
-            // newBehaviorButton
+            // newRoundFlowButton
             //
-            this.newBehaviorButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            resources.ApplyResources(this.newBehaviorButton, "newBehaviorButton");
-            this.newBehaviorButton.Name = "newBehaviorButton";
-            this.newBehaviorButton.Click += new System.EventHandler(this.newBehaviorButton_Click);
+            this.newRoundFlowButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            resources.ApplyResources(this.newRoundFlowButton, "newRoundFlowButton");
+            this.newRoundFlowButton.Name = "newRoundFlowButton";
+            this.newRoundFlowButton.Click += new System.EventHandler(this.newRoundFlowButton_Click);
             //
             // createGroupButton
             //
@@ -401,7 +401,7 @@ namespace Behaviac.Design
         private System.Windows.Forms.ImageList imageList;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.ToolStrip toolStrip;
-        private System.Windows.Forms.ToolStripButton newBehaviorButton;
+        private System.Windows.Forms.ToolStripButton newRoundFlowButton;
         private System.Windows.Forms.ToolStripButton createGroupButton;
         private System.Windows.Forms.ToolStripButton deleteButton;
         private System.Windows.Forms.ToolStripButton refreshButton;
